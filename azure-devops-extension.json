@@ -1,0 +1,29 @@
+{
+    "manifestVersion": 1,
+    "id": "extension",
+    "publisher": "jeffdevalmeida",
+    "version": "0.0.1",
+    "name": "Extension Sample",
+    "description": "Azure DevOps extension sample",
+    "categories": [
+        "Azure Boards"
+    ],
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],
+    "icons": {
+        "default": "static/konia_logo.png"
+    },
+    "files": [
+        {
+            "path": "static",
+            "addressable": true
+        },
+        {
+            "path": "dist",
+            "addressable": true
+        }
+    ]
+}
